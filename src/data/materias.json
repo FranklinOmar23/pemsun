@@ -1,0 +1,476 @@
+{
+  "program": "Ingeniería en Software",
+  "modality": "trimestral",
+  "periods": {
+    "trimester1": {
+      "name": "Primer Trimestre (Febrero-Abril)",
+      "courses": [
+        {
+          "id": "CBC-101",
+          "name": "Taller de Orientación Universitaria",
+          "code": "CBC-101",
+          "prerequisites": []
+        },
+        {
+          "id": "CBC-102",
+          "name": "Introducción a la Educación a Distancia",
+          "code": "CBC-102",
+          "prerequisites": []
+        },
+        {
+          "id": "CBE-103",
+          "name": "Español I",
+          "code": "CBE-103",
+          "prerequisites": []
+        },
+        {
+          "id": "CBC-104",
+          "name": "Infotecnología para el Aprendizaje",
+          "code": "CBC-104",
+          "prerequisites": []
+        },
+        {
+          "id": "FGI-101",
+          "name": "Propedéutico de Ingeniería",
+          "code": "FGI-101",
+          "prerequisites": []
+        }
+      ]
+    },
+    "trimester2": {
+      "name": "Segundo Trimestre (Mayo-Julio)",
+      "courses": [
+        {
+          "id": "CBE-105",
+          "name": "Español II",
+          "code": "CBE-105",
+          "prerequisites": [
+            "CBE-103"
+          ]
+        },
+        {
+          "id": "FGI-102",
+          "name": "Álgebra y Geometría para Ingenieros",
+          "code": "FGI-102",
+          "prerequisites": []
+        },
+        {
+          "id": "FGI-103",
+          "name": "Lógica Computacional",
+          "code": "FGI-103",
+          "prerequisites": []
+        },
+        {
+          "id": "FGC-104",
+          "name": "Filosofía General",
+          "code": "FGC-104",
+          "prerequisites": []
+        }
+      ]
+    },
+    "trimester3": {
+      "name": "Tercer Trimestre (Agosto-Octubre)",
+      "courses": [
+        {
+          "id": "FGC-102",
+          "name": "Sociología",
+          "code": "FGC-102",
+          "prerequisites": []
+        },
+        {
+          "id": "FGM-102",
+          "name": "Análisis Matemático I",
+          "code": "FGM-102",
+          "prerequisites": [
+            "FGI-102"
+          ]
+        },
+        {
+          "id": "CBC-107",
+          "name": "Ser Humano y Desarrollo Sostenible",
+          "code": "CBC-107",
+          "prerequisites": []
+        },
+        {
+          "id": "FGI-104",
+          "name": "Programación I",
+          "code": "FGI-104",
+          "prerequisites": [
+            "FGI-103"
+          ]
+        }
+      ]
+    },
+    "trimester4": {
+      "name": "Cuarto Trimestre (Noviembre-Enero)",
+      "courses": [
+        {
+          "id": "FGM-103",
+          "name": "Análisis Matemático II",
+          "code": "FGM-103",
+          "prerequisites": [
+            "FGM-102"
+          ]
+        },
+        {
+          "id": "FGI-105",
+          "name": "Programación II",
+          "code": "FGI-105",
+          "prerequisites": [
+            "FGI-104"
+          ]
+        },
+        {
+          "id": "FGI-106",
+          "name": "Sistema de Base de Datos",
+          "code": "FGI-106",
+          "prerequisites": [
+            "FGI-104"
+          ]
+        }
+      ]
+    },
+    "trimester5": {
+      "name": "Quinto Trimestre (Febrero-Abril)",
+      "courses": [
+        {
+          "id": "FGF-201",
+          "name": "Física General",
+          "code": "FGF-201",
+          "prerequisites": [
+            "FGI-102"
+          ]
+        },
+        {
+          "id": "LAF-201",
+          "name": "Práctica de Física General",
+          "code": "LAF-201",
+          "prerequisites": [
+            "FGF-201"
+          ]
+        },
+        {
+          "id": "FGI-207",
+          "name": "Programación III",
+          "code": "FGI-207",
+          "prerequisites": [
+            "FGI-105"
+          ]
+        },
+        {
+          "id": "FGI-208",
+          "name": "Análisis y Diseño de Sistema",
+          "code": "FGI-208",
+          "prerequisites": [
+            "FGI-106"
+          ]
+        }
+      ]
+    },
+    "trimester6": {
+      "name": "Sexto Trimestre (Mayo-Julio)",
+      "courses": [
+        {
+          "id": "FGC-205",
+          "name": "Metodología de la Investigación I",
+          "code": "FGC-205",
+          "prerequisites": []
+        },
+        {
+          "id": "FGI-209",
+          "name": "Electrónica Básica",
+          "code": "FGI-209",
+          "prerequisites": [
+            "FGF-201"
+          ]
+        },
+        {
+          "id": "ISW-201",
+          "name": "Ingeniería de Software I",
+          "code": "ISW-201",
+          "prerequisites": [
+            "FGI-208"
+          ]
+        }
+      ]
+    },
+    "trimester7": {
+      "name": "Séptimo Trimestre (Agosto-Octubre)",
+      "courses": [
+        {
+          "id": "FGN-204",
+          "name": "Contabilidad y Finanzas",
+          "code": "FGN-204",
+          "prerequisites": [
+            "FGM-102"
+          ]
+        },
+        {
+          "id": "FGI-210",
+          "name": "Arquitectura de Hardware",
+          "code": "FGI-210",
+          "prerequisites": [
+            "FGI-209"
+          ]
+        },
+        {
+          "id": "ISW-202",
+          "name": "Ingeniería de Software II",
+          "code": "ISW-202",
+          "prerequisites": [
+            "ISW-201"
+          ]
+        },
+        {
+          "id": "FGC-206",
+          "name": "Metodología de la Investigación II",
+          "code": "FGC-206",
+          "prerequisites": [
+            "FGC-205"
+          ]
+        }
+      ]
+    },
+    "trimester8": {
+      "name": "Octavo Trimestre (Noviembre-Enero)",
+      "courses": [
+        {
+          "id": "FGM-205",
+          "name": "Matemática Discreta",
+          "code": "FGM-205",
+          "prerequisites": [
+            "FGM-103"
+          ]
+        },
+        {
+          "id": "FGM-206",
+          "name": "Álgebra Lineal",
+          "code": "FGM-206",
+          "prerequisites": [
+            "FGI-102"
+          ]
+        },
+        {
+          "id": "ISW-203",
+          "name": "Calidad de Software",
+          "code": "ISW-203",
+          "prerequisites": [
+            "ISW-202"
+          ]
+        }
+      ]
+    },
+    "trimester9": {
+      "name": "Noveno Trimestre (Febrero-Abril)",
+      "courses": [
+        {
+          "id": "FGM-207",
+          "name": "Estadística y Probabilidades",
+          "code": "FGM-207",
+          "prerequisites": [
+            "FGM-103"
+          ]
+        },
+        {
+          "id": "FGI-311",
+          "name": "Teleinformática",
+          "code": "FGI-311",
+          "prerequisites": [
+            "FGI-210"
+          ]
+        },
+        {
+          "id": "ISW-304",
+          "name": "Desarrollo de Proyectos con Software Libre",
+          "code": "ISW-304",
+          "prerequisites": [
+            "FGI-208"
+          ]
+        }
+      ]
+    },
+    "trimester10": {
+      "name": "Décimo Trimestre (Mayo-Julio)",
+      "courses": [
+        {
+          "id": "INF-303",
+          "name": "Seguridad Informática",
+          "code": "INF-303",
+          "prerequisites": [
+            "FGI-311"
+          ]
+        },
+        {
+          "id": "FGM-314",
+          "name": "Matemática Numérica",
+          "code": "FGM-314",
+          "prerequisites": [
+            "FGM-205"
+          ]
+        },
+        {
+          "id": "ISW-305",
+          "name": "Estructura de Datos y Algoritmos",
+          "code": "ISW-305",
+          "prerequisites": [
+            "FGI-207"
+          ]
+        }
+      ]
+    },
+    "trimester11": {
+      "name": "Décimo Primer Trimestre (Agosto-Octubre)",
+      "courses": [
+        {
+          "id": "INF-304",
+          "name": "Informática Gerencial",
+          "code": "INF-304",
+          "prerequisites": [
+            "ISW-202"
+          ]
+        },
+        {
+          "id": "INF-305",
+          "name": "Sistemas Operativos",
+          "code": "INF-305",
+          "prerequisites": [
+            "FGI-207"
+          ]
+        },
+        {
+          "id": "ISW-306",
+          "name": "Desarrollo de Aplicaciones Web",
+          "code": "ISW-306",
+          "prerequisites": [
+            "ISW-304"
+          ]
+        }
+      ]
+    },
+    "trimester12": {
+      "name": "Décimo Segundo Trimestre (Noviembre-Enero)",
+      "courses": [
+        {
+          "id": "ISW-307",
+          "name": "Programación de Dispositivos Móviles",
+          "code": "ISW-307",
+          "prerequisites": [
+            "ISW-306"
+          ]
+        },
+        {
+          "id": "ISW-308",
+          "name": "Gráficos por Computadoras",
+          "code": "ISW-308",
+          "prerequisites": [
+            "FGI-207"
+          ]
+        },
+        {
+          "id": "ISW-309",
+          "name": "Inteligencia Artificial",
+          "code": "ISW-309",
+          "prerequisites": [
+            "FGI-210"
+          ]
+        }
+      ]
+    },
+    "trimester13": {
+      "name": "Décimo Tercer Trimestre (Febrero-Abril)",
+      "courses": [
+        {
+          "id": "MER-415",
+          "name": "Marketing Digital",
+          "code": "MER-415",
+          "prerequisites": [
+            "ISW-306"
+          ]
+        },
+        {
+          "id": "INF-408",
+          "name": "Investigación de Operaciones",
+          "code": "INF-408",
+          "prerequisites": [
+            "FGM-207"
+          ]
+        },
+        {
+          "id": "INF-409",
+          "name": "Formación de Empresa de Base Tecnológica",
+          "code": "INF-409",
+          "prerequisites": [
+            "INF-304"
+          ]
+        }
+      ]
+    },
+    "trimester14": {
+      "name": "Décimo Cuarto Trimestre (Mayo-Julio)",
+      "courses": [
+        {
+          "id": "ISW-410",
+          "name": "Seminario de Proyecto I",
+          "code": "ISW-410",
+          "prerequisites": [
+            "ISW-306"
+          ]
+        },
+        {
+          "id": "FGC-409",
+          "name": "Ética Profesional",
+          "code": "FGC-409",
+          "prerequisites": []
+        },
+        {
+          "id": "INF-307",
+          "name": "Gestión del Conocimiento y la Toma de Decisiones",
+          "code": "INF-307",
+          "prerequisites": [
+            "INF-304"
+          ]
+        }
+      ]
+    },
+    "trimester15": {
+      "name": "Décimo Quinto Trimestre (Agosto-Octubre)",
+      "courses": [
+        {
+          "id": "ISW-411",
+          "name": "Seminario de Proyecto II",
+          "code": "ISW-411",
+          "prerequisites": [
+            "ISW-410"
+          ]
+        },
+        {
+          "id": "ISW-412",
+          "name": "Minería de Datos",
+          "code": "ISW-412",
+          "prerequisites": [
+            "INF-307"
+          ]
+        },
+        {
+          "id": "ISW-413",
+          "name": "Simulación Digital",
+          "code": "ISW-413",
+          "prerequisites": [
+            "INF-408"
+          ]
+        }
+      ]
+    },
+    "trimester16": {
+      "name": "Décimo Sexto Trimestre (Noviembre-Enero)",
+      "courses": [
+        {
+          "id": "CFI-500",
+          "name": "Curso Final de Grado",
+          "code": "CFI-500",
+          "prerequisites": []
+        }
+      ]
+    }
+  }
+}
