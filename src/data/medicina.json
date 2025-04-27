@@ -1,0 +1,200 @@
+{
+    "program": "Pre-médica",
+    "modality": "semestral",
+    "periods": {
+      "semester11": {
+        "name": "Primer Semestre",
+        "courses": [
+          { "id": "BIO-0170", "name": "Biología Básica", "prerequisites": [] },
+          { "id": "BIO-0180", "name": "Laboratorio de Biología Básica", "prerequisites": [] },
+          { "id": "DOP-1000", "name": "Orientación Institucional", "prerequisites": [] },
+          { "id": "FIL-0110", "name": "Introducción a la Filosofía", "prerequisites": [] },
+          { "id": "LET-0110", "name": "Lengua Española Básica I", "prerequisites": [] },
+          { "id": "MAT-0140", "name": "Matemática Básica", "prerequisites": [] },
+          { "id": "QUI-0140", "name": "Química Básica", "prerequisites": [] },
+          { "id": "SOC-0100", "name": "Introducción a las Ciencias Sociales", "prerequisites": [] },
+          { "id": "FIS-0140", "name": "Física Básica", "prerequisites": [] }
+        ]
+      },
+      "semester22": {
+        "name": "Segundo Semestre",
+        "courses": [
+          { "id": "CFI-3150", "name": "Biofísica", "prerequisites": ["FIS-0140", "BIO-0170", "BIO-0180"] },
+          { "id": "CFI-3160", "name": "Laboratorio de Biofísica", "prerequisites": ["FIS-0140", "BIO-0170", "BIO-0180"] },
+          { "id": "EFS-0120", "name": "Educación Física", "prerequisites": [] },
+          { "id": "HIS-0110", "name": "Fundamentos de Historia Social Dominicana", "prerequisites": [] },
+          { "id": "LET-0120", "name": "Lengua Española Básica II", "prerequisites": ["LET-0110"] },
+          { "id": "OSI-1510", "name": "Fundamentos de Desarrollo Cognitivo", "prerequisites": [] },
+          { "id": "QUI-1220", "name": "Química Orgánica", "prerequisites": ["QUI-0140"] },
+          { "id": "SOC-1470", "name": "Vida en Comunidad", "prerequisites": ["SOC-0100"] }
+        ]
+      },
+      "semester33": {
+        "name": "Tercer Semestre",
+        "courses": [
+          { "id": "CMO-1020", "name": "Estructuras y Sistemas Anatómicos", "prerequisites": ["BIO-0170", "BIO-0180"] },
+          { "id": "CMO-1030", "name": "Laboratorio de Estructuras y Sistemas Anatómicos", "prerequisites": ["BIO-0170", "BIO-0180"] },
+          { "id": "SAP-2090", "name": "Bases para el Análisis Biométrico", "prerequisites": ["MAT-0140"] },
+          { "id": "INF-1030", "name": "Introducción a la Informática", "prerequisites": ["MAT-0140"] },
+          { "id": "IDI-1200", "name": "Inglés Técnico en Salud I", "prerequisites": ["LET-0120"] },
+          { "id": "HIS-2370", "name": "Historia de la Cultura Universal", "prerequisites": ["HIS-0110"] },
+          { "id": "HIS-1700", "name": "Antropología Aplicada en Medicina", "prerequisites": ["SOC-0100"] },
+          { "id": "FIL-1270", "name": "Fundamentos de Ética General", "prerequisites": ["FIL-0110"] }
+        ]
+      },
+      "semester44": {
+        "name": "Cuarto Semestre",
+        "courses": [
+          { "id": "CMO-0300", "name": "Bases Histológicas del Organismo", "prerequisites": ["BIO-0170", "BIO-0180"] },
+          { "id": "CMO-0340", "name": "Laboratorio de Bases Histológicas del Organismo", "prerequisites": ["BIO-0170", "BIO-0180"] },
+          { "id": "CFI-0160", "name": "Fisiología Celular", "prerequisites": ["QUI-1220", "BIO-0170", "BIO-0180", "CFI-3150", "CFI-3160"] },
+          { "id": "SAP-2080", "name": "Tecnologías de Información e Investigación en Salud", "prerequisites": ["INF-1030"] },
+          { "id": "IDI-1270", "name": "Inglés Técnico en Salud II", "prerequisites": ["IDI-1200"] },
+          { "id": "SAP-1150", "name": "Fundamentos de Soporte Vital Básico", "prerequisites": ["CMO-1020", "CMO-1030"] },
+          { "id": "SAP-1050", "name": "Introducción a la Metodología de la Investigación en Salud", "prerequisites": ["FIL-0110", "SOC-0100", "MAT-0140"] },
+          { "id": "MED-0340", "name": "Laboratorio Salud y Conducta Humana", "prerequisites": ["SOC-0100"] },
+          { "id": "MED-0330", "name": "Salud y Conducta Humana", "prerequisites": ["SOC-0100"] }
+        ]
+      },
+      "semester1": {
+        "name": "Primer Semestre MED",
+        "courses": [
+          { "id": "SAP-1100", "name": "Promoción en Salud", "prerequisites": [] },
+          { "id": "MIP-1330", "name": "Microbiología", "prerequisites": [] },
+          { "id": "MED-3100", "name": "Introducción a la Clínica", "prerequisites": [] },
+          { "id": "CMO-3150", "name": "Laboratorio de Anatomía Humana I", "prerequisites": [] },
+          { "id": "CMO-3140", "name": "Anatomía Humana I", "prerequisites": [] },
+          { "id": "CMO-2330", "name": "Laboratorio de Histología General de Órganos y Sistemas Humanos", "prerequisites": [] },
+          { "id": "CMO-2320", "name": "Histología General de Órganos y Sistemas Humanos", "prerequisites": [] },
+          { "id": "CMO-1420", "name": "Embriología", "prerequisites": [] },
+          { "id": "CFI-2340", "name": "Laboratorio de Bioquímica I", "prerequisites": [] },
+          { "id": "CFI-2330", "name": "Bioquímica I", "prerequisites": [] },
+          { "id": "CFI-1240", "name": "Laboratorio de Genética Médica", "prerequisites": [] },
+          { "id": "CFI-1230", "name": "Genética Médica", "prerequisites": [] }
+        ]
+      },
+      "semester2": {
+        "name": "Segundo Semestre MED",
+        "courses": [
+          { "id": "SAP-3040", "name": "Laboratorio de Salud Colectiva", "prerequisites": [] },
+          { "id": "SAP-2030", "name": "Salud Colectiva", "prerequisites": [] },
+          { "id": "MIP-1240", "name": "Parasitología", "prerequisites": ["MIP-1330", "CMO-3140", "CMO-3150"] },
+          { "id": "MED-4750", "name": "Laboratorio de Semiología Médica", "prerequisites": [] },
+          { "id": "MED-4740", "name": "Semiología Médica", "prerequisites": [] },
+          { "id": "MED-1340", "name": "Psicología Médica", "prerequisites": [] },
+          { "id": "CMO-3170", "name": "Laboratorio de Anatomía Humana II", "prerequisites": ["CMO-3140", "CMO-3150"] },
+          { "id": "CMO-3160", "name": "Anatomía Humana II", "prerequisites": ["CMO-3140", "CMO-3150"] },
+          { "id": "CFI-3120", "name": "Laboratorio de Fisiología Humana I", "prerequisites": [] },
+          { "id": "CFI-3110", "name": "Fisiología Humana I", "prerequisites": [] },
+          { "id": "CFI-2360", "name": "Laboratorio de Bioquímica II", "prerequisites": ["CFI-2330", "CFI-2340"] },
+          { "id": "CFI-2350", "name": "Bioquímica II", "prerequisites": ["CFI-2330", "CFI-2340"] }
+        ]
+      },
+      "semester3": {
+        "name": "Tercer Semestre MED",
+        "courses": [
+          { "id": "CFI-1550", "name": "Fisiopatología I", "prerequisites": ["CFI-2350", "CFI-2360", "CFI-3110", "CFI-3120"] },
+          { "id": "SAP-2380", "name": "Gerencia y Políticas de Salud", "prerequisites": ["SAP-2030", "SAP-3040"] },
+          { "id": "SAP-1170", "name": "Laboratorio de Epidemiología", "prerequisites": ["SAP-2030", "SAP-3040"] },
+          { "id": "SAP-1160", "name": "Epidemiología", "prerequisites": ["SAP-2030", "SAP-3040"] },
+          { "id": "MED-3270", "name": "Laboratorio de Semiología Quirúrgica", "prerequisites": ["MED-4740", "MED-4750"] },
+          { "id": "MED-3260", "name": "Semiología Quirúrgica", "prerequisites": ["MED-4740", "MED-4750"] },
+          { "id": "CMO-3190", "name": "Laboratorio de Neuroanatomía", "prerequisites": ["CMO-3160", "CMO-3170"] },
+          { "id": "CMO-3180", "name": "Neuroanatomía", "prerequisites": ["CMO-3160", "CMO-3170"] },
+          { "id": "CMO-2290", "name": "Laboratorio de Anatomía Patológica I", "prerequisites": ["CMO-3160", "CMO-3170"] },
+          { "id": "CMO-2280", "name": "Anatomía Patológica I", "prerequisites": ["CMO-3160", "CMO-3170"] },
+          { "id": "CFI-3140", "name": "Laboratorio de Fisiología Humana II", "prerequisites": ["CFI-3110", "CFI-3120"] },
+          { "id": "CFI-3130", "name": "Fisiología Humana II", "prerequisites": ["CFI-3110", "CFI-3120"] }
+        ]
+      },
+      "semester4": {
+      "name": "Cuarto Semestre MED",
+      "courses": [
+        { "id": "SAP-3350", "name": "Evolución Sociohistórica de la Medicina", "prerequisites": ["SAP-1160", "SAP-1170"] },
+        { "id": "MED-ZYY0", "name": "Asignatura Optativa", "prerequisites": [] },
+        { "id": "MED-1360", "name": "Sexología Médica", "prerequisites": ["CMO-3160", "CMO-3170", "MED-1340"] },
+        { "id": "CMO-3220", "name": "Laboratorio de Anatomía Patológica II", "prerequisites": ["CMO-2280", "CMO-2290"] },
+        { "id": "CMO-3210", "name": "Anatomía Patológica II", "prerequisites": ["CMO-2280", "CMO-2290"] },
+        { "id": "CFI-2470", "name": "Laboratorio de Farmacología", "prerequisites": ["CFI-2350", "CFI-2360", "CFI-3130", "CFI-3140"] },
+        { "id": "CFI-2460", "name": "Farmacología", "prerequisites": ["CFI-2350", "CFI-2360", "CFI-3130", "CFI-3140"] },
+        { "id": "CFI-1570", "name": "Laboratorio de Fisiopatología II", "prerequisites": ["CFI-1550"] },
+        { "id": "CFI-1560", "name": "Fisiopatología II", "prerequisites": ["CFI-1550"] },
+        { "id": "BAN-2180", "name": "Inmunología General", "prerequisites": ["CFI-2350", "CFI-2360", "CMO-3160", "CMO-3170"] }
+      ]
+    },
+    "semester5": {
+      "name": "Quinto Semestre PRE-INT",
+      "courses": [
+        { "id": "BAN-3000", "name": "Imagenología", "prerequisites": [] },
+        { "id": "BAN-3160", "name": "Hematología Médica", "prerequisites": [] },
+        { "id": "BAN-3170", "name": "Laboratorio de Hematología Médica", "prerequisites": [] },
+        { "id": "CFI-2480", "name": "Farmacoterapéutica", "prerequisites": ["CFI-2460", "CFI-2470"] },
+        { "id": "CFI-2490", "name": "Laboratorio de Farmacoterapéutica", "prerequisites": ["CFI-2460", "CFI-2470"] },
+        { "id": "MED-4210", "name": "Cirugía General", "prerequisites": [] },
+        { "id": "MED-6120", "name": "Infectología", "prerequisites": [] },
+        { "id": "MED-ZZX0", "name": "Asignatura Optativa", "prerequisites": [] },
+        { "id": "SAP-2200", "name": "Bioética y Normativas en Salud", "prerequisites": [] }
+      ]
+    },
+    "semester6": {
+      "name": "Sexto Semestre PRE-INT",
+      "courses": [
+        { "id": "CFI-4100", "name": "Endocrinología", "prerequisites": ["CFI-1550", "CFI-1560", "CFI-1570", "CFI-2350", "CFI-2360", "CFI-3110", "CFI-3120"] },
+        { "id": "CFI-4110", "name": "Laboratorio de Endocrinología", "prerequisites": ["CFI-1550", "CFI-1560", "CFI-1570", "CFI-2350", "CFI-2360", "CFI-3110", "CFI-3120"] },
+        { "id": "MED-2140", "name": "Nefrología", "prerequisites": ["BAN-3000", "MED-6120"] },
+        { "id": "MED-2350", "name": "Psiquiatría", "prerequisites": ["CFI-2400"] },
+        { "id": "MED-2360", "name": "Laboratorio de Psiquiatría", "prerequisites": ["CFI-2400"] },
+        { "id": "MED-4160", "name": "Dermatología", "prerequisites": ["MED-6120", "CFI-2400"] },
+        { "id": "MED-4230", "name": "Oftalmología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-4240", "name": "Laboratorio de Oftalmología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-6130", "name": "Neurología", "prerequisites": ["BAN-3000"] },
+        { "id": "MED-6140", "name": "Laboratorio de Neurología", "prerequisites": ["BAN-3000"] },
+        { "id": "MED-6150", "name": "Cardiología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-6160", "name": "Laboratorio de Cardiología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-6170", "name": "Neumopatología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-6180", "name": "Laboratorio de Neumopatología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-6190", "name": "Gastroenterología", "prerequisites": ["BAN-3000"] },
+        { "id": "MED-7100", "name": "Laboratorio de Gastroenterología", "prerequisites": ["BAN-3000"] },
+        { "id": "SAP-3050", "name": "Medicina Forense", "prerequisites": [] },
+        { "id": "SAP-3080", "name": "Laboratorio de Medicina Forense", "prerequisites": [] }
+      ]
+    },"semester7": {
+      "name": "Séptimo Semestre PRE-INT",
+      "courses": [
+        { "id": "MED-4250", "name": "Laboratorio de Otorrinolaringología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-3290", "name": "Otorrinolaringología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-3280", "name": "Anestesiología", "prerequisites": ["MED-6170", "MED-6180"] },
+        { "id": "MED-1240", "name": "Neurocirugía", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "FAR-3510", "name": "Nutrición (Medicina)", "prerequisites": ["CFI-2180", "MED-6190", "MED-7100"] },
+        { "id": "MED-ZZX0", "name": "Asignatura Optativa", "prerequisites": [] },
+        { "id": "MED-5120", "name": "Oncología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-4290", "name": "Laboratorio de Urología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220", "MED-2140"] },
+        { "id": "MED-4280", "name": "Urología", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220", "MED-2140"] },
+        { "id": "MED-4270", "name": "Laboratorio de Traumatología y Ortopedia", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] },
+        { "id": "MED-4260", "name": "Traumatología y Ortopedia", "prerequisites": ["BAN-3000", "MED-4210", "MED-4220"] }
+      ]
+    },
+    "semester8": {
+      "name": "Octavo Semestre PRE-INT",
+      "courses": [
+        { "id": "MED-3410", "name": "Pediatría y Neonatología", "prerequisites": ["CFI-2400", "FAR-3510"] },
+        { "id": "MED-3500", "name": "Gíneco-Obstetricia", "prerequisites": ["MED-3280", "CFI-2180", "MED-5120"] },
+        { "id": "MED-5200", "name": "Emergencias Médicas", "prerequisites": ["BAN-3000", "MED-3280", "MED-4210", "MED-4220"] },
+        { "id": "SAP-1060", "name": "Metodología de la Investigación en Salud", "prerequisites": ["SAP-2200", "SAP-3050"] }
+      ]
+    },
+    "internship_and_thesis": {
+      "name": "Internado Rotatorio y Tesis de Grado",
+      "courses": [
+        { "id": "MED-3440", "name": "Clínica Pediátrica", "prerequisites": [] },
+        { "id": "MED-3370", "name": "Clínica Médico Psiquiátrica", "prerequisites": [] },
+        { "id": "MED-3520", "name": "Clínica Gíneco-Obstétrica", "prerequisites": [] },
+        { "id": "MED-5240", "name": "Medicina Quirúrgica y Traumatología", "prerequisites": [] },
+        { "id": "MED-7110", "name": "Medicina Interna", "prerequisites": [] },
+        { "id": "MED-5230", "name": "Salud Pública", "prerequisites": [] },
+        { "id": "MED-7990", "name": "Tesis de Grado", "prerequisites": [] }
+      ]
+    }
+    }
+  }
+  
