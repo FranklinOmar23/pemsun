@@ -158,6 +158,14 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 grid-cols-1 gap-6 mt-6">
+            <div>
+                <Progress
+                  total={totalMaterias}
+                  completadas={completadas.length}
+                  resetProgress={resetProgress}
+                />
+                <RemainingTimeChart pensumData={pensumData} completadas={completadas} />
+              </div>
               <div className="md:col-span-2">
                 {Object.entries(pensumData.periods).map(([key, periodo]) => (
                   <SubjectList
@@ -168,14 +176,6 @@ export default function Home() {
                     toggleMateria={toggleMateria}
                   />
                 ))}
-              </div>
-              <div>
-                <Progress
-                  total={totalMaterias}
-                  completadas={completadas.length}
-                  resetProgress={resetProgress}
-                />
-                <RemainingTimeChart pensumData={pensumData} completadas={completadas} />
               </div>
             </div>
           </>
