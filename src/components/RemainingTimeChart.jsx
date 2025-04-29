@@ -68,7 +68,7 @@ export default function RemainingTimeChart({ pensumData, completadas }) {
         <div key={item.anio} className="mb-4">
           <div className="flex justify-between text-sm font-medium text-gray-700 mb-1">
             <span>Año {item.anio}</span>
-            <span>{item.completadas}/{item.total} materias</span>
+            <span>{item.completadas}/{item.total} Materias</span>
           </div>
           <div className="flex gap-2">
             {item.bloques.map((bloque, i) => (
